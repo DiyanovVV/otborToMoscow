@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		10E2F81F232625EC007A28F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E2F81D232625EC007A28F6 /* LaunchScreen.storyboard */; };
 		10E2F82A232625EC007A28F6 /* OtborWINERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2F829232625EC007A28F6 /* OtborWINERTests.swift */; };
 		10E2F835232625EC007A28F6 /* OtborWINERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2F834232625EC007A28F6 /* OtborWINERUITests.swift */; };
+		148473DE853F1D3F829DA9C0 /* Pods_OtborWINERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F3BBC0BC6C8CDB16B017CB /* Pods_OtborWINERUITests.framework */; };
+		327F289B89AF5A0952C54EFC /* Pods_OtborWINER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AA075894F836B254470423 /* Pods_OtborWINER.framework */; };
+		3485E5FA943C2D24D8601B4D /* Pods_OtborWINERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E988C9112FBDF2B4975477 /* Pods_OtborWINERTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		10E2F830232625EC007A28F6 /* OtborWINERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtborWINERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E2F834232625EC007A28F6 /* OtborWINERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtborWINERUITests.swift; sourceTree = "<group>"; };
 		10E2F836232625EC007A28F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E988C9112FBDF2B4975477 /* Pods_OtborWINERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtborWINERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8584AF6B18DC351E2276CF /* Pods-OtborWINER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtborWINER.debug.xcconfig"; path = "Target Support Files/Pods-OtborWINER/Pods-OtborWINER.debug.xcconfig"; sourceTree = "<group>"; };
+		6A80D4DB3B8CA93BCB5E476F /* Pods-OtborWINER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtborWINER.release.xcconfig"; path = "Target Support Files/Pods-OtborWINER/Pods-OtborWINER.release.xcconfig"; sourceTree = "<group>"; };
+		7AF93787DE9D4593E078CB16 /* Pods-OtborWINERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtborWINERUITests.debug.xcconfig"; path = "Target Support Files/Pods-OtborWINERUITests/Pods-OtborWINERUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CA4372DEE62EBFF907AC8A6 /* Pods-OtborWINERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtborWINERUITests.release.xcconfig"; path = "Target Support Files/Pods-OtborWINERUITests/Pods-OtborWINERUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5F3BBC0BC6C8CDB16B017CB /* Pods_OtborWINERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtborWINERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF04599F5092D6F4C7907E50 /* Pods-OtborWINERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtborWINERTests.release.xcconfig"; path = "Target Support Files/Pods-OtborWINERTests/Pods-OtborWINERTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2A5CF3988E47FB2BCA6CDC1 /* Pods-OtborWINERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtborWINERTests.debug.xcconfig"; path = "Target Support Files/Pods-OtborWINERTests/Pods-OtborWINERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2AA075894F836B254470423 /* Pods_OtborWINER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtborWINER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327F289B89AF5A0952C54EFC /* Pods_OtborWINER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3485E5FA943C2D24D8601B4D /* Pods_OtborWINERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148473DE853F1D3F829DA9C0 /* Pods_OtborWINERUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				10E2F828232625EC007A28F6 /* OtborWINERTests */,
 				10E2F833232625EC007A28F6 /* OtborWINERUITests */,
 				10E2F812232625EC007A28F6 /* Products */,
+				8FEB3D6A0C0B639E09CAD9C2 /* Pods */,
+				C48A0C1718FFBB1AE1DFF325 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = OtborWINERUITests;
 			sourceTree = "<group>";
 		};
+		8FEB3D6A0C0B639E09CAD9C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E8584AF6B18DC351E2276CF /* Pods-OtborWINER.debug.xcconfig */,
+				6A80D4DB3B8CA93BCB5E476F /* Pods-OtborWINER.release.xcconfig */,
+				C2A5CF3988E47FB2BCA6CDC1 /* Pods-OtborWINERTests.debug.xcconfig */,
+				AF04599F5092D6F4C7907E50 /* Pods-OtborWINERTests.release.xcconfig */,
+				7AF93787DE9D4593E078CB16 /* Pods-OtborWINERUITests.debug.xcconfig */,
+				7CA4372DEE62EBFF907AC8A6 /* Pods-OtborWINERUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C48A0C1718FFBB1AE1DFF325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2AA075894F836B254470423 /* Pods_OtborWINER.framework */,
+				22E988C9112FBDF2B4975477 /* Pods_OtborWINERTests.framework */,
+				A5F3BBC0BC6C8CDB16B017CB /* Pods_OtborWINERUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E2F839232625EC007A28F6 /* Build configuration list for PBXNativeTarget "OtborWINER" */;
 			buildPhases = (
+				1B546EE5A2767C8CCDB8739D /* [CP] Check Pods Manifest.lock */,
 				10E2F80D232625EC007A28F6 /* Sources */,
 				10E2F80E232625EC007A28F6 /* Frameworks */,
 				10E2F80F232625EC007A28F6 /* Resources */,
+				D424C34BCDF3ABB57B400CC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E2F83C232625EC007A28F6 /* Build configuration list for PBXNativeTarget "OtborWINERTests" */;
 			buildPhases = (
+				B8687327BFC3F027CB1FAD23 /* [CP] Check Pods Manifest.lock */,
 				10E2F821232625EC007A28F6 /* Sources */,
 				10E2F822232625EC007A28F6 /* Frameworks */,
 				10E2F823232625EC007A28F6 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E2F83F232625EC007A28F6 /* Build configuration list for PBXNativeTarget "OtborWINERUITests" */;
 			buildPhases = (
+				34FFB54AB8FB6ED64ADAAFE5 /* [CP] Check Pods Manifest.lock */,
 				10E2F82C232625EC007A28F6 /* Sources */,
 				10E2F82D232625EC007A28F6 /* Frameworks */,
 				10E2F82E232625EC007A28F6 /* Resources */,
@@ -250,6 +294,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B546EE5A2767C8CCDB8739D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtborWINER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34FFB54AB8FB6ED64ADAAFE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtborWINERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8687327BFC3F027CB1FAD23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtborWINERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D424C34BCDF3ABB57B400CC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtborWINER/Pods-OtborWINER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtborWINER/Pods-OtborWINER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OtborWINER/Pods-OtborWINER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10E2F80D232625EC007A28F6 /* Sources */ = {
@@ -430,16 +560,21 @@
 		};
 		10E2F83A232625EC007A28F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8584AF6B18DC351E2276CF /* Pods-OtborWINER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN2W87B929;
 				INFOPLIST_FILE = OtborWINER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DexMP.OtborWINER;
+				PRODUCT_BUNDLE_IDENTIFIER = OtborWINERD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,16 +582,21 @@
 		};
 		10E2F83B232625EC007A28F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A80D4DB3B8CA93BCB5E476F /* Pods-OtborWINER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN2W87B929;
 				INFOPLIST_FILE = OtborWINER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DexMP.OtborWINER;
+				PRODUCT_BUNDLE_IDENTIFIER = OtborWINERD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +604,7 @@
 		};
 		10E2F83D232625EC007A28F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A5CF3988E47FB2BCA6CDC1 /* Pods-OtborWINERTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +625,7 @@
 		};
 		10E2F83E232625EC007A28F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF04599F5092D6F4C7907E50 /* Pods-OtborWINERTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +646,7 @@
 		};
 		10E2F840232625EC007A28F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF93787DE9D4593E078CB16 /* Pods-OtborWINERUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +666,7 @@
 		};
 		10E2F841232625EC007A28F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA4372DEE62EBFF907AC8A6 /* Pods-OtborWINERUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
